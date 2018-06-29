@@ -1,0 +1,179 @@
+#MyPage {
+  font: 400 15px Righteous, cursive;
+  line-height: 1.8;
+  color: #818181;
+  background-image: url("../images/austin-thesing-26726-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.intro-lead-in {
+  margin: auto;
+  width:50%;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 25px;
+
+
+
+}
+
+.intro-countdown {
+  padding-top: 5%;
+  text-align: center;
+
+  font-size: 27px;
+  font-style: italic;
+  line-height: 1px;
+  margin-bottom: 20px;
+}
+
+.row.button-row {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+.btn-default {
+  background: #8B0000;
+  color: #818181;
+  border-radius: 25px;
+  border-color: black;
+  box-shadow: 1px 2px 5px #000000;
+
+}
+.btn-default:hover {
+  background: #818181;
+  color: #000;
+}
+
+.timer {
+text-align: center;
+font-size: 27px;
+margin-bottom: 25px;
+}
+
+#RegisterPage {
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  -webkit-background-size: 100% 300px;
+  -moz-background-size: 100% 300px;
+  -o-background-size: 100% 300px;
+  background-size: 100% 300px;
+
+  font: 400 15px Righteous, cursive;
+  line-height: 1.8;
+  color: #818181;
+}
+
+#SuccessPage {
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  -webkit-background-size: 100% 300px;
+  -moz-background-size: 100% 300px;
+  -o-background-size: 100% 300px;
+  background-size: 100% 300px;
+
+  font: 400 15px Righteous, cursive;
+  line-height: 1.8;
+  color: #818181;
+}
+
+.card {
+  text-align: center;
+  margin: auto;
+  border: 3px solid #8B0000;
+  border-radius: 25px;
+  box-shadow: 5px 6px 10px #000000;
+}
+
+.card-pos{
+  padding-top: 0px;
+}
+
+.form-group>input{
+  border-color: #818181;
+  box-shadow: 5px 6px 10px #000000;
+}
+
+.reg-page-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.col-sm-4 {
+  text-align: center;
+  font-size: 25px;
+  border: 3px solid #818181;
+  border-radius: 15px 50px;
+  background-color: #8B0000;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #8B0000;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.fb-sq {
+  font-size: 21px;
+}
+
+
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+  .footer{
+    position: static;
+  }
+
+  .col-sm-4{
+    font-size: 16px;
+  }
+
+  .row.button-row {
+    margin-top: 0px;
+    padding-bottom: 20%;
+  }
+
+  .timer {
+    margin-bottom: 10px;
+
+  }
+
+  .ftr-pg3 {
+    position: fixed;
+  }
+
+  .intro-countdown {
+    font-size: 17px;
+  }
+}
+
+
+
