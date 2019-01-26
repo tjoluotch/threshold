@@ -1,6 +1,6 @@
 
 //countdown timer code
-var countdownDate = new Date("Jun 30, 2018 10:30:00").getTime();
+var countdownDate = new Date("Jun 30, 2019 10:30:00").getTime();
 
 var update = setInterval(function () {
 

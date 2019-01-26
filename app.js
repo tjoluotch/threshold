@@ -12,7 +12,9 @@ var registerRouter = require('./routes/register');
 
 var app = express();
 
-mongoose.connect('mongodb://threshold:threshold2018@ds123401-a0.mlab.com:23401,ds123401-a1.mlab.com:23401/admin?replicaSet=rs-ds123401');
+mongoose.connect("mongodb://testing123:testing123@ds113375.mlab.com:13375/threshold-conf");
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
